@@ -83,6 +83,7 @@ The example on this repository is for the display **NX3224T024** with a resoluti
   * Sending `0` to `knxGA01`, the display will be turned off.
 * Physical address defined on line 25
 * 12 Buttons, which send their "value" back to KNX
-  * Numbers 0-9
-  * Boolean `true` for OK
-  * Boolean `false` for Cancel
+  * Number buttons 0-9 as Integer (1ByteInt, DPT5) to `knxGA02`
+  * Boolean (1Bit, DPT1) to`knxGA03`
+    * `true` for OK
+    * `false` for Cancel
