@@ -1,4 +1,4 @@
-# DIY Status Display
+# KNX Status Display
 
 Based on [DIY Statusdisplay from KNXUF](https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/diy-do-it-yourself/1442271-diy-statusdisplay)
 
