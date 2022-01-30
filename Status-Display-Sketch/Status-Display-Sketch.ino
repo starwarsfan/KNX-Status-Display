@@ -78,8 +78,8 @@ void setup() {
     Serial1.begin(19200, SERIAL_8E1);               // Start der seriellen Verbindung (Busankoppler) mit 19200 Baud
     knx.uartReset();                                // Uart Reset
     knx.addListenGroupAddress(knxGA01);             // Gruppenadressen auf die der Arduino "lauschen" soll
-    knx.addListenGroupAddress(knxGA02);
-    knx.addListenGroupAddress(knxGA03);
+//    knx.addListenGroupAddress(knxGA02);
+//    knx.addListenGroupAddress(knxGA03);
 }
 
 void loop() {
